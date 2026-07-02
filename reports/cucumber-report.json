@@ -1,0 +1,336 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-to-demoblaze-site;login-test",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login test",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 840000399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on demoblaze site",
+            "match": {
+              "location": "src\\test\\steps\\Demoblaze.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4714980499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user tries to login with valid credentials by clicking login",
+            "match": {
+              "location": "src\\test\\steps\\Demoblaze.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 149872699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the user enters username as \"samihaM\"",
+            "match": {
+              "location": "src\\test\\steps\\Demoblaze.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218087100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "the user enters password as \"2005\" and clicks login button",
+            "match": {
+              "location": "src\\test\\steps\\Demoblaze.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 344144100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the user should naviagte to the products page successfully",
+            "match": {
+              "location": "src\\test\\steps\\Demoblaze.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3147699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 524716599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-to-demoblaze-site",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login to demoBlaze site",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      }
+    ],
+    "uri": "src\\test\\features\\Demoblaze.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-authentication-tests;login-should-be-success",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Login should be success",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 959238200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3331216700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User click on the login link",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 133948500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "User enter the username as \"samiha\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 276928899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "User enter the password as \"Samiha@2005\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33075800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 151509599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Login should be success",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 811782900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 331745800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication-tests;login-should-not-be-sucess",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Login should not be sucess",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 734017399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3320961199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "User click on the login link",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 96066900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "User enter the username as \"samiha\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 267331500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "User enter the password as \"\"",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24172599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User click on the login button",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 124293399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Login should fail",
+            "match": {
+              "location": "src\\test\\steps\\loginstep.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 422538599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 385137600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-authentication-tests",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Authentication tests",
+    "tags": [],
+    "uri": "src\\test\\features\\login.feature"
+  }
+]
