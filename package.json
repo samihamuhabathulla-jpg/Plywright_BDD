@@ -11,7 +11,8 @@
     "parallel": "cucumber-js src/test/features --parallel 2",
     "failed": "cucumber-js @rerun.txt",
     "ci": "cucumber-js src/test/features --tags @smoke --format json:reports/report.json",
-    "posttest": "npx ts-node src/helper/report.mts"
+    "posttest": "npx ts-node src/helper/report.mts",
+    "test:failed": "cucumber-js @rerun.txt"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +22,7 @@
     "@cucumber/cucumber": "^13.0.0",
     "@playwright/test": "^1.61.1",
     "@types/node": "^26.1.0",
+    "@types/winston": "^2.4.4",
     "ts-node": "^10.9.2"
   },
   "dependencies": {
